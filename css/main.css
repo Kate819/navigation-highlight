@@ -20,7 +20,6 @@ h1 {
   text-align: center;
   font-family: "Sigmar One", cursive;
   margin: 0;
-  padding: 0;
   font-size: 3rem;
 }
 
@@ -30,17 +29,18 @@ li {
 
 a {
   font-family: Georgia;
-  padding: .4em .5em .3em;
+  padding: .45em .5em;
   background-color: #b2a212;
   border-radius: 4px;
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.13rem;
+  margin: 0;
 }
 
 div {
   background-color: #ffe500;
-  padding: .2em .5em .3em;
+  padding: 0 0 .6em;
   text-align: center;
   margin: 0;
 }
@@ -48,14 +48,14 @@ div {
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: .3em 0 0;
 }
 
 h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
-  font-size: 1.9rem;
-  margin: 1em .5em;
+  font-size: 1.86rem;
+  margin: .85em .5em;
 }
 
 main p {
@@ -66,13 +66,16 @@ main p {
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding: .75em;
+  padding: .77em;
+  margin: 0;
 }
 
 img {
   width: 100%;
-  height: 100%;
+  padding: 0 1em 0 0;
   display: block;
+  margin: 0 .7em;
+  text-align: left;
 }
 
 a:hover {
@@ -81,10 +84,16 @@ a:hover {
 
 p {
   color: #2f2d13;
+  font-size: 1rem;
+  margin: 1em;
 }
 
 figcaption {
   color: #2f2d13;
+  margin: 1em .3em;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 main {
@@ -92,5 +101,5 @@ main {
 }
 
 figure {
-  margin: 0;
+  margin: .3em;
 }
